@@ -1,0 +1,35 @@
+{
+
+    "study_id": "d2f7b331-db81-4df3-bea6-e33cc8c74153",
+
+    "block_type": "CHECKBOX",
+
+    "sequence": 1,
+
+    "block_properties": {
+
+        "question": "is this a CHECKBOX question?",
+
+        "options": [
+
+            {"option_text": "option one", "option_id": ""},
+
+            {"option_text": "option two", "option_id": ""},
+
+            {"option_text": "option three"}
+
+        ],
+
+        "response_required": false,
+
+        "randomize": true,
+
+        "none_of_the_above": false,
+
+        "others": false,
+
+        "all_of_the_above": false
+
+    }
+
+}

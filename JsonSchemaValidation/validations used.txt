@@ -1,0 +1,36 @@
+type -            To check if the type of the proprties of schema is same as in the json file.
+
+minlength-        To set the minimum length of string type "study_id".
+
+maxlength-        To set the maximum length of string type "study_id".
+
+oneOf-            To validate the string type "block_type" against exactly one of the given subschemas or given keywords. The value of
+                  this keyword must be an array.
+
+pattern-          To validate the string type "block_type" by giving a regular expression which should match the instance.
+ 
+enum-             Must be an array  type with one or more element.  In JSON data it takes only one of the value.
+
+minimum-          To set the minimum value of integer type "sequence".
+
+exclusiveMinimum- Value of integer type "sequence" should be more than this keyword value.
+
+maximum-          To set the maximum value of integer type "sequence".
+
+exclusiveMaximum- Value of integer type "sequence" should be less than this keyword value.
+ 
+minItems-         To set the minimum number of items for the given array type "options".
+
+maxItems-         To set the maximum number of items for the given array type "options"
+
+uniqueItems-      To make sure that the items should be unique in the given array type "options".
+
+additionalItems-  If it contains boolean value True then, whether a document containing elements not defined in the schema should be considered valid in the given 
+                  array type "options". If boolean value is False then a document containing elements not defined in the schema will not be considered valid.
+
+maxProperties-    To set the maximum number of properties for object type "block_properties".
+
+minProperties-    To set the minimum number of properties for object type "block_properties".
+
+required-         An object instance is valid against this keyword if its property set contains all elements in this keyword's array value. If minProperties is given 
+                  for this instance then we can avoid using required keyword.
